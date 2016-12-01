@@ -14,11 +14,19 @@ namespace LoginNavigation {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class Settings_Page : global::Xamarin.Forms.ContentPage {
+    public partial class SettingsPage : global::Xamarin.Forms.ContentPage {
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label qualText;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Picker QualificationPicker;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(Settings_Page));
+            this.LoadFromXaml(typeof(SettingsPage));
+            qualText = this.FindByName<global::Xamarin.Forms.Label>("qualText");
+            QualificationPicker = this.FindByName<global::Xamarin.Forms.Picker>("QualificationPicker");
         }
     }
 }
