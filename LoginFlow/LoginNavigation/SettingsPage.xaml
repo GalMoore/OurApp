@@ -3,7 +3,8 @@
 	<ContentPage.Content>
 		<StackLayout>
 			<Label Text="Settings content goes here" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-      <Label Text="Louis says hi" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+      			<Label Text="Louis says hi" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+			<Label Text="Louis says go" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
