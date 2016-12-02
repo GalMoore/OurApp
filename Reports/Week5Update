@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper}
+
+
+\title{SOAS Exchange App: Week 5 Update}
+\author{Louis Fillo, John Hill & Gal Moore}
+
+\begin{document}
+\maketitle
+
+\section{Progress overview} 
+It was a very productive fortnight and the project remains on track.  The scope of the project was narrowed: the app will now be exclusively for language exchange.  Since the last report, we have held our second client meeting and agreed on all key design decisions.   We agreed on a number of small deviations from the wireframes presented, in consultation with the client.  Our attention is now turned to implementing the design and assessing competing technology solutions.
+
+\section{Language Exchange App: Summary}
+Facilitates the matching of users (predominantly SOAS students) for the purpose of language exchange.  Language exchange involves two participants meeting up to speak in languages that one side is a fluent/native speaker of, and the other user is aiming to learn.  The exchange is reciprocal: exchangers swap roles.  The SOAS community covers a wide range of languages, so the app would need features to match users who speak more obscure languages, as well as the major languages.
+
+\section{Summary of meeting (17/11)}
+We had very productive meeting with our client.  Changes were agreed in the following areas:
+\begin{itemize}
+\item Gender categories - 'Male', 'Female', 'Other Identity'
+\item Drop-down list for positions at SOAS - 'Undergraduate'; 'Postgraduate'; 'PhD'; 'Staff'
+\item General visual identity 
+\item Leaf descriptions
+\item Logo use 
+\item Remove location functionality - replace with less detailed meet-up info
+\item Avatars as alternative to photos (SOAS leaves)
+\item Integration with Google calendar
+\item Add a warning message after a match is made
+\end{itemize}
+
+We agreed that the app should be cross-platform.  Data will be hosted on SOAS servers.  The key outstanding questions concern the app deployment process (app to be deployed on SOAS servers), and the email verification process (possibly using Shibboleth).
+
+\section{Individual actions/Completed Tasks}
+
+\subsection{Gal Moore}
+\begin{itemize}
+   \item General project management incl. client liaison
+   \item Significant work on UI, wireframes, demos 
+\end{itemize}
+
+\subsection{Louis Fillo}
+\begin{itemize}
+   \item Finalised user interviews
+   \item Wireframe development
+\end{itemize}
+
+\subsection{John Hill}
+\begin{itemize}
+   \item Analysis of user questionnaire, 
+   \item Fed insights in to wireframe development
+   \item Report written
+\end{itemize}
+
+\section{Issues Encountered /& Next Steps}
+\begin{itemize}
+   \item Need to find a solution for cross-platform development (Ionic vs. Xamarin) and research back-end solutions (MySQL vs. SQLite).
+\end{itemize}
+
+\begin{itemize}
+   \item Pick technology stack
+   \item Start coding front-end
+   \item Start back-end development.
+   \item Investigate user authentication, encryption and API (e.g. Google calendar) technologies.
+\end{itemize}
+
+\end{document}
+\medskip
+
+
+
+
