@@ -57,7 +57,7 @@ namespace LoginNavigation
 			var isValid = AreCredentialsCorrect (user);
 			if (isValid) {
 				App.IsUserLoggedIn = true;
-				Navigation.InsertPageBefore (new SwipePage (), this);
+				Navigation.InsertPageBefore (new MainPage (), this);
 				await Navigation.PopAsync ();
 			} else {
 				messageLabel.Text = "Login failed";
