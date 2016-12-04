@@ -1,0 +1,14 @@
+/Users/john/Downloads/LoginFlow/LoginNavigation/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/john/Downloads/LoginFlow/LoginNavigation/obj/Debug/LoginNavigation.LoginPage.xaml
+/Users/john/Downloads/LoginFlow/LoginNavigation/obj/Debug/LoginNavigation.SignUpPage.xaml
+/Users/john/Downloads/LoginFlow/LoginNavigation/obj/Debug/LoginNavigation.SettingsPage.xaml
+/Users/john/Downloads/LoginFlow/LoginNavigation/obj/Debug/LoginNavigation.LoginPage.xaml.g.cs
+/Users/john/Downloads/LoginFlow/LoginNavigation/obj/Debug/LoginNavigation.SignUpPage.xaml.g.cs
+/Users/john/Downloads/LoginFlow/LoginNavigation/obj/Debug/LoginNavigation.SettingsPage.xaml.g.cs
+/Users/john/Downloads/LoginFlow/LoginNavigation/bin/Debug/LoginNavigation.dll.mdb
+/Users/john/Downloads/LoginFlow/LoginNavigation/bin/Debug/LoginNavigation.dll
+/Users/john/Downloads/LoginFlow/LoginNavigation/obj/Debug/LoginNavigation.dll
+/Users/john/Downloads/LoginFlow/LoginNavigation/obj/Debug/LoginNavigation.dll.mdb
+/Users/john/Downloads/LoginFlow/LoginNavigation/bin/Debug/Xamarin.Forms.Core.dll
+/Users/john/Downloads/LoginFlow/LoginNavigation/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/john/Downloads/LoginFlow/LoginNavigation/bin/Debug/Xamarin.Forms.Xaml.dll

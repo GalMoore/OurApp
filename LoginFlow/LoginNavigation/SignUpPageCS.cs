@@ -55,7 +55,7 @@ namespace LoginNavigation
 				var rootPage = Navigation.NavigationStack.FirstOrDefault ();
 				if (rootPage != null) {
 					App.IsUserLoggedIn = true;
-					Navigation.InsertPageBefore (new SwipePage (), Navigation.NavigationStack.First ());
+					Navigation.InsertPageBefore (new MainPage(), Navigation.NavigationStack.First ());
 					await Navigation.PopToRootAsync ();
 				}
 			} else {

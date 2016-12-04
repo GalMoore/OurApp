@@ -17,7 +17,7 @@ namespace LoginNavigation
 
 		async void OnCarouselButtonClicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new SwipePage());
+			await Navigation.PushAsync(new MainPage ());
 		}
 
 		async void OnLoginButtonClicked (object sender, EventArgs e)

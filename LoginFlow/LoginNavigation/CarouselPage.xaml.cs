@@ -1,11 +1,10 @@
 ﻿using System;
 using Xamarin.Forms;
              
-public class SwipePage : CarouselPage
-{
-	public SwipePage()
+
 	{
 		var padding = new Thickness(0, Device.OnPlatform(40, 40, 0), 0, 0);
+
 		var redContentPage = new ContentPage
 		{
 			Padding = padding,
