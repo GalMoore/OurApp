@@ -1,8 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LoginNavigation.Settings_Page">
-	<ContentPage.Content>
-		<StackLayout>
-			<Label Text="Settings content goes here" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-		</StackLayout>
-	</ContentPage.Content>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LoginNavigation.SettingsPage">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Text="Main Page" Clicked="OnMainPageButtonClicked" />
+  </ContentPage.ToolbarItems>
+  
+  <ContentPage.Content>
+    <StackLayout>
+      <Button Text="Languages Spoken" Clicked="OnClick" BackgroundColor="Blue"/>
+      <Button Text="Languages Wanted" Clicked="OnClick" BackgroundColor="Red"/>
+      <RelativeLayout >
+        <Label x:Name="qualText" Text="Pick Highest Qualification" TextColor="White"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=345}"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=10}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=.25,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=50}" />
+        <Picker x:Name="QualificationPicker"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=320}"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.3, Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=0.75,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=50}" />
+      </RelativeLayout>
+    </StackLayout>
+  </ContentPage.Content>
+    
 </ContentPage>
+

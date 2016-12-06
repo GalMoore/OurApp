@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{F0AA2B49-1A31-4495-AACE-0DD5AAA80139}|Default">
+  <MonoDevelop.Ide.ItemProperties.LoginNavigation.ios PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.352F3FEA-C8E5-4E7F-BE67-0DD48919585D" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="LoginNavigation/CarouselPage.xaml" Line="15" Column="27" />
+      <File FileName="LoginNavigation/Constants.cs" Line="1" Column="1" />
+      <File FileName="LoginNavigation/CarouselPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="LoginNavigation/App.cs" Line="5" Column="2" />
+      <File FileName="LoginNavigation/LoginPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="LoginNavigation/SignUpPage.xaml.cs" Line="13" Column="1" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="LoginNavigation/User.cs" Line="3" Column="19" />
+      <File FileName="LoginNavigation/LoginPageCS.cs" Line="1" Column="1" />
+      <File FileName="LoginNavigation/SignUpPageCS.cs" Line="1" Column="1" />
+      <File FileName="LoginNavigation/SettingsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="LoginNavigation/Util.cs" Line="14" Column="1" />
+      <File FileName="LoginNavigation/MainPageCS.cs" Line="8" Column="23" />
+      <File FileName="LoginNavigation/SettingsPageCS.cs" Line="18" Column="3" />
+      <File FileName="iOS/Main.cs" Line="19" Column="3" />
+      <File FileName="LoginNavigation/packages.config" Line="1" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="17" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
